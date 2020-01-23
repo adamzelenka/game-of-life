@@ -42,6 +42,7 @@
                 <version>2.19.1</version>
                 <configuration>
 	            <forkCount>0</forkCount>
+                    <useSystemClassLoader>false</useSystemClassLoader>
                 </configuration>
                 <executions>
                     <execution>
