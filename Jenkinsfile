@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine'
-            args '-v /c/Users/azelenka/Documents/Docker/jenkins/jenkins_home/workspace/simple-java-maven-app/.m2:/root/.m2'
+            args '-v /c/Users/azelenka/Documents/Docker/jenkins/jenkins_home/workspace/simple-java-maven-app/.m2:/opt/.m2'
         }
     }
     stages {
